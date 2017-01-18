@@ -70,28 +70,28 @@ class PlaceDescription {
         get { return _address_street }
     }
     
-    private var _elevation: Double
+    private var _elevation: Float
     
-    var elevation: Double {
+    var elevation: Float {
         set { _elevation = elevation }
         get { return _elevation }
     }
     
-    private var _latitude: Double
+    private var _latitude: Float
     
-    var latitude: Double {
+    var latitude: Float {
         set { _latitude = latitude }
         get { return _latitude }
     }
     
-    private var _longitude: Double
+    private var _longitude: Float
     
-    var longitude: Double {
+    var longitude: Float {
         set { _longitude = longitude }
         get { return _longitude }
     }
     
-    init(name: String, description: String, category: String, address_title: String, address_street: String, elevation: Double, latitude: Double, longitude: Double){
+    init(name: String, description: String, category: String, address_title: String, address_street: String, elevation: Float, latitude: Float, longitude: Float){
         self._name = name
         self._description = description
         self._category = category
