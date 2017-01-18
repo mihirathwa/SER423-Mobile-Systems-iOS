@@ -16,7 +16,7 @@
 // State University the right to build and evaluate the package for the
 // purpose of determining grade and program assessment.
 //
-// Purpose: This file contains connection between UI and code as described
+// Purpose: This file contains the Place Description class as described
 // in Assignment 1
 //
 // Ser423 Mobile Applications
