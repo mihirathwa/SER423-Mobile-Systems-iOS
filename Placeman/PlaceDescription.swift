@@ -1,18 +1,6 @@
 // Copyright 2017 Mihir Rathwa,
 //
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-// http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-//
-// This license also provides instructor Dr. Tim Lindquist and Arizona
+// This license provides the instructor Dr. Tim Lindquist and Arizona
 // State University the right to build and evaluate the package for the
 // purpose of determining grade and program assessment.
 //
@@ -70,28 +58,28 @@ class PlaceDescription {
         get { return _address_street }
     }
     
-    private var _elevation: Float
+    private var _elevation: Double
     
-    var elevation: Float {
+    var elevation: Double {
         set { _elevation = elevation }
         get { return _elevation }
     }
     
-    private var _latitude: Float
+    private var _latitude: Double
     
-    var latitude: Float {
+    var latitude: Double {
         set { _latitude = latitude }
         get { return _latitude }
     }
     
-    private var _longitude: Float
+    private var _longitude: Double
     
-    var longitude: Float {
+    var longitude: Double {
         set { _longitude = longitude }
         get { return _longitude }
     }
     
-    init(name: String, description: String, category: String, address_title: String, address_street: String, elevation: Float, latitude: Float, longitude: Float){
+    init(name: String, description: String, category: String, address_title: String, address_street: String, elevation: Double, latitude: Double, longitude: Double){
         self._name = name
         self._description = description
         self._category = category
